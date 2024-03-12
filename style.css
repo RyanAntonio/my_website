@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* audio */
+#audio-player::-webkit-media-controls-panel {
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+}
+
+#volume-slider {
+    accent-color: #4b5563;
+}
+
+#volume-slider::-webkit-slider-thumb {
+    background-color: #4b5563;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
